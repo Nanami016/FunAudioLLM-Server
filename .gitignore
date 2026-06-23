@@ -1,0 +1,12 @@
+.venv/
+logs/
+.DS_Store
+__pycache__/
+*.pyc
+.asr_server.pid
+
+# Models (too large for git)
+*.gguf
+
+# Binaries
+bin/
