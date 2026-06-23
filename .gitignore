@@ -5,8 +5,8 @@ __pycache__/
 *.pyc
 .asr_server.pid
 
-# Models (too large for git)
-*.gguf
+# Large model (242MB, download separately)
+SenseVoiceSmall-GGUF/
 
-# Binaries
-bin/
+# Allow small models
+!models/*.gguf
